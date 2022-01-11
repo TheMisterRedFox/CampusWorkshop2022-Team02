@@ -48,4 +48,19 @@ nav {
   box-shadow: 0.2px 1px 5px grey;
 }
 
+main {
+  display: flex;
+  margin: 5em;
+}
+
+main img {
+  height: 40em;
+  width: 40em;
+}
+
+.container {
+  margin: 2em;
+  height: 10em;
+}
+
 /* End of Navigation Bar */
