@@ -53,14 +53,19 @@ main {
   margin: 5em;
 }
 
-main img {
-  height: 40em;
-  width: 40em;
-}
-
 .container {
   margin: 2em;
   height: 10em;
+  width: 90em;
+}
+
+.band {
+  display: flex;
+  border: thin;
+  border-radius: 3em;
+  box-shadow: 0.2px 1px 5px grey;
+  width: 30em;
+  height: 40em;
 }
 
 /* End of Navigation Bar */
