@@ -1,7 +1,51 @@
-.navbar {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  height: auto;
+}
+
+/* Navigation Bar */
+
+nav {
   display: flex;
 }
 
-#DC_logo {
-  height: 7em;
+nav ul {
+  display: flex;
+  color: #454545;
+  background-color: rgb(255, 255, 255);
 }
+
+nav a:link,
+nav a:visited {
+  color: #454545;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  font-size: 110%;
+  text-shadow: 2px 2px 5px rgb(209, 209, 209);
+  color: #00ce45;
+}
+
+nav li {
+  font-size: 120%;
+  margin-right: 2em;
+  list-style-type: none;
+}
+
+a:active {
+  color: #27f6fd;
+  font-size: 102%;
+}
+
+nav {
+  box-shadow: 0.2px 1px 5px grey;
+}
+
+/* End of Navigation Bar */
