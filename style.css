@@ -10,27 +10,33 @@ body {
 
 /* Navigation Bar */
 
-nav {
-  display: flex;
-}
-
 nav ul {
   display: flex;
   color: #454545;
   background-color: rgb(255, 255, 255);
 }
 
+.logo img {
+  margin: 1em;
+  height: 4em;
+  transition: 1s;
+}
+
+.logo img:hover {
+  height: 5em;
+}
+
 nav a:link,
 nav a:visited {
   color: #454545;
   text-decoration: none;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 nav a:hover {
-  font-size: 110%;
+  font-size: 150%;
   text-shadow: 2px 2px 5px rgb(209, 209, 209);
-  color: #00ce45;
+  color: #0097ce;
 }
 
 nav li {
