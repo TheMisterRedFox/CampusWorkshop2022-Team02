@@ -72,6 +72,7 @@ a:active {
   height: 3em;
 }
 
+
 footer {
   background-color: rgba(0, 0, 0, 0.207);
   display: flex;
@@ -125,3 +126,25 @@ footer li {
   margin-right: 1.5em;
 }
 /*End of Footer*/
+
+main {
+  display: flex;
+  margin: 5em;
+}
+
+.container {
+  margin: 2em;
+  height: 10em;
+  width: 90em;
+}
+
+.band {
+  display: flex;
+  border: thin;
+  border-radius: 3em;
+  box-shadow: 0.2px 1px 5px grey;
+  width: 30em;
+  height: 40em;
+}
+
+
