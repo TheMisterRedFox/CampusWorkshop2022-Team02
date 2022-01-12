@@ -38,20 +38,24 @@ nav .logo img {
 }
 
 nav .logo img:hover {
-  height: 5em;
+  height: 3.5em;
 }
 
 nav a:link,
 nav a:visited {
-  color: #454545;
+  color: #7c7c7c;
   text-decoration: none;
   transition: 0.7s;
 }
 
-nav a:hover {
-  font-size: 250%;
+nav .text:hover {
+  font-size: 150%;
   text-shadow: 2px 2px 5px rgb(209, 209, 209);
   color: #0097ce;
+}
+
+.actualPage {
+  color: #414141;
 }
 
 nav li {
@@ -86,7 +90,8 @@ footer a:visited {
   transition: 0.5s;
 }
 
-footer a:hover {
+footer .footerNavigation a:hover,
+footer .otherFooterNavigation a:hover {
   color: #007982;
   font-size: 107%;
 }
@@ -123,6 +128,10 @@ footer li {
   display: flex;
   justify-content: flex-end;
   margin-right: 1.5em;
+}
+
+.actualPageFooter {
+  color: #7e7e7e;
 }
 /*End of Footer*/
 
