@@ -35,31 +35,35 @@
             </nav>
         </header>
 
-        <main>
+        <main class="contact">
             <h1> Une question, un rendez-vous à nous demander ?</h1>
             <h2>Vous êtes au bon endroit !</h2>
+            <p id="info">
+                Merci de remplir les informations ci-dessous afin que nous puissions vous recontacter.
+            </p>
             <div class="form">
                 <form method="post" action="traitement.php" >
-                <p>
-                    Merci de remplir les informations ci-dessous afin que nous puissions vous recontacter.
-                </p>
-                <p> Nom / Nom de la structure : </p>
-                <input type="text" name="Nom"  required ><br>
-                <p> Prenom : </p>
-                <input type="text" name="Prenom" ><br>
-                <p> Email : </p>
-                <input type="text" name="mail"  required ><br>
-                <p> Téléphone : </p>
-                <input type="text" name="tel"  required><br>
-                <p> Secteur d'activité : </p>
-                <input type="text" name="secteur" required ><br>
-                <p> Pays : </p>
+                <input type="text" name="Nom" placeholder="Nom*" required><br>
+                <input type="text" name="Prenom" placeholder="Prénom(s)*" required><br>
+                <input type="email" name="mail" required placeholder="Adresse e-mail*"><br>
+                <input type="tel" name="tel" placeholder="Téléphone"><br>
+                <label for="position">Votre position par rapport à DIGITAL CONSULTANT©*:</label> <select required>
+                    <option>--Position par rapport à DIGITAL CONSULTANT©--</option>
+                    <option>Je suis un ancien client.</option>
+                    <option>Je suis un client actuel.</option>
+                    <option>Je souhaite devenir un client.</option>
+                    <option>Je ne suis pas un client.</option>
+                    <option>°Ne souhaite pas répondre° (délai de traitement plus long)</option>
+                </select><br>
+                
+                <label for="Pays de résidence">Pays de résidence* :</label>
                 <select required>
+                    <option>--Pays de résidence--</option>
                     <option>Afrique du Sud</option>
-                    <option> Algerie </option>
-                    <option> Allemagne </option>
-                    <option> Arabie Saoudite</option>
-                    <option> Argentine</option>
+                    <option>Algerie </option>
+                    <option>Allemagne </option>
+                    <option>Arabie Saoudite</option>
+                    <option>Argentine</option>
                     <option>Belgique</option>
                     <option>Bénin</option>
                     <option>Brésil</option>
@@ -80,6 +84,9 @@
                     <option>Russie</option>
                     <option>Tunisie</option>
                 </select><br>
+                <label for="input" class="whatDoYouWantToSay">Que souhaitez-vous nous dire ?</label><br>
+                <textarea name="Votre texte" id="texte" placeholder="Saisissez votre message."></textarea><br>
+                <p id="asterisk">*Champs obligatoires</p>
                 <input type="submit" value="Envoyer">
                 <input type="Reset" value="Annuler">
             </form>
