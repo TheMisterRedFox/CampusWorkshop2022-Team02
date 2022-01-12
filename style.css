@@ -72,7 +72,6 @@ a:active {
   height: 3em;
 }
 
-
 footer {
   background-color: rgba(0, 0, 0, 0.207);
   display: flex;
@@ -147,4 +146,9 @@ main {
   height: 40em;
 }
 
-
+form {
+  justify-content: center;
+  align-items: center;
+  margin: 2em 6em;
+  font-weight: normal;
+}
