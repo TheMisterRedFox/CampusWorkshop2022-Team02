@@ -142,6 +142,7 @@ footer li {
 }
 /*End of Footer*/
 
+
 /* Index page */
 
 .main_index {
@@ -202,6 +203,7 @@ footer li {
   width: 30em;
   height: 40em;
 }
+
 /* End of Index Page */
 
 /* Formulaire de contact */
@@ -284,6 +286,7 @@ label[for="input"] {
 }
 /* Fin du formulaire de contact */
 
+
 /*Formulaire d'abonnement mail à la newsletter*/
 
 .newsletter img,
@@ -330,6 +333,7 @@ label[for="input"] {
 }
 
 /*Fin de formulaire d'abonnement mail à la newsletter*/
+
 
 /*Main of service*/
 .nos-services h1 {
@@ -475,5 +479,91 @@ label[for="input"] {
   height: 8vw;
   padding: 1vw;
 }
-
 /*End Main of service*/
+
+
+/*main of A propos*/
+.values {
+  margin: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.values img {
+  width: 10em;
+  height: 10em;
+}
+
+.values {
+  display: flex;
+  justify-content: space-around;
+}
+.values p {
+  font-size: 25px;
+}
+
+.values h1 {
+  text-align: center;
+  font-size: 320%;
+  color: #4634ee;
+  text-shadow: 3px 3px 1px #2222222a;
+}
+.valuation {
+  margin: 2em;
+  padding: 2em;
+  text-align: center;
+  width: 25em;
+  height: 18em;
+  border: solid;
+  border-radius: 3em;
+}
+
+.history p {
+  column-count: 2;
+  column-width: 20em;
+  margin: 4em;
+  margin-top: 2em;
+  font-size: 25px;
+}
+.history h1 {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+h1 {
+  text-align: center;
+  text-align: center;
+  font-size: 320%;
+  color: #2b18d8;
+  text-shadow: 5px 5px 2px #2222222a;
+}
+
+.history {
+  margin: 3em;
+}
+
+.team {
+  background-color: #e3e8eb;
+  margin: 1em;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.team > * {
+  flex: 1 1 200px;
+}
+.team p {
+  font-size: 25px;
+}
+.image {
+  margin: 1em;
+  padding: 5em;
+}
+
+.team p {
+  margin-top: 1em;
+}
+
