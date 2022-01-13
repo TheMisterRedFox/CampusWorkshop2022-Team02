@@ -134,27 +134,75 @@ footer li {
 .actualPageFooter {
   color: #7e7e7e;
 }
+
+.gradient {
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(white, rgba(0, 0, 0, 0.207));
+}
 /*End of Footer*/
+
+/* Index page */
 
 .main_index {
   display: flex;
+  padding: 5em;
+  background-color: rgba(250, 235, 215, 0.159);
+}
+
+.main_index img {
+  height: 25em;
+  width: max-content;
+  margin: 1em;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainPage {
+  flex-direction: column;
+  text-align: center;
+}
+
+.main_index h1 {
+  color: #009130;
+  font-size: 600%;
+  text-shadow: 3px 3px 1px#45454558;
+}
+
+.main_index p {
+  font-size: 130%;
+  text-shadow: 1px 1px 0.5px#45454527;
+  color: #454545;
+}
+
+.container img {
   margin: 5em;
+  transition: 1s;
+}
+
+.container img:hover {
+  opacity: 0;
 }
 
 .container {
   margin: 2em;
-  height: 10em;
   width: 90em;
 }
 
-.band {
+.addBand {
   display: flex;
   border: thin;
   border-radius: 3em;
+  background-color: white;
   box-shadow: 0.2px 1px 5px grey;
   width: 30em;
   height: 40em;
 }
+/* End of Index Page */
 
 /* Formulaire de contact */
 
