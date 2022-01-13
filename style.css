@@ -257,12 +257,14 @@ label[for="input"] {
 }
 
 .secondTitle h1 {
-  padding-top: 1.5em;
+  padding-top: 2em;
   color: #009130;
+  font-size: 330%;
+  text-shadow: 3px 3px 1px #2222222a;
 }
 
 .secondTitle h2 {
-  font-size: 400%;
+  font-size: 320%;
   color: #009130;
   text-shadow: 3px 3px 1px #2222222a;
 }
@@ -272,7 +274,7 @@ label[for="input"] {
 }
 
 #three {
-  font-size: 400%;
+  font-size: 300%;
   color: rgba(189, 0, 0, 0.755);
   text-shadow: 5px 5px 1px #bfbfbf;
   text-decoration: underline;
@@ -280,10 +282,10 @@ label[for="input"] {
 }
 
 .votre {
-  font-size: 250%;
+  font-size: 190%;
   color: rgb(0, 91, 189);
   text-decoration: underline;
-  padding: 0.1em;
+  padding: 0.2em;
   text-shadow: 5px 5px 1px #2222222a;
 }
 
