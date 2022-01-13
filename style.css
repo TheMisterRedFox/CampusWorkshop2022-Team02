@@ -134,38 +134,84 @@ footer li {
 .actualPageFooter {
   color: #7e7e7e;
 }
+
+.gradient {
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(white, rgba(0, 0, 0, 0.207));
+}
 /*End of Footer*/
 
-/*main of acceuil*/
+
+/* Index page */
 
 .main_index {
   display: flex;
+  padding: 5em;
+  background-color: rgba(250, 235, 215, 0.159);
+}
+
+.main_index img {
+  height: 25em;
+  width: max-content;
+  margin: 1em;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainPage {
+  flex-direction: column;
+  text-align: center;
+}
+
+.main_index h1 {
+  color: #009130;
+  font-size: 600%;
+  text-shadow: 3px 3px 1px#45454558;
+}
+
+.main_index p {
+  font-size: 130%;
+  text-shadow: 1px 1px 0.5px#45454527;
+  color: #454545;
+}
+
+.container img {
   margin: 5em;
+  transition: 1s;
+}
+
+.container img:hover {
+  opacity: 0;
 }
 
 .container {
   margin: 2em;
-  height: 10em;
   width: 90em;
 }
 
-.band {
+.addBand {
   display: flex;
   border: thin;
   border-radius: 3em;
+  background-color: white;
   box-shadow: 0.2px 1px 5px grey;
   width: 30em;
   height: 40em;
 }
-/*End main of acceuil*/
+
+/* End of Index Page */
 
 /* Formulaire de contact */
-.contact {
+
+.contact,
+.newsletter {
   margin: 2.5%;
   padding-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
   box-shadow: 8px 8px 10px #414141;
   background-color: rgb(248, 248, 248);
@@ -240,6 +286,55 @@ label[for="input"] {
 }
 /* Fin du formulaire de contact */
 
+
+/*Formulaire d'abonnement mail à la newsletter*/
+
+.newsletter img,
+.contact img {
+  height: 25%;
+  width: 25%;
+  padding: 1vw;
+}
+
+.newsletter h1 {
+  color: #009130;
+  text-shadow: 4px 4px 2px #d1d1d17e;
+  font-size: 300%;
+}
+
+.newsletter h2 {
+  color: #454545c4;
+  font-weight: normal;
+  margin-bottom: 1.5vw;
+}
+.newsletter .form input[type="email"] {
+  width: 25%;
+  line-height: 30px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.newsletter .form input[type="email"]:hover {
+  box-shadow: 5px 5px 1px #45454564;
+}
+
+.newsletter .form input[type="submit"] {
+  max-width: 15%;
+  line-height: 20px;
+  background-color: #06f555;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.newsletter .form input[type="submit"]:hover {
+  line-height: 35px;
+  box-shadow: 5px 5px 1px #45454564;
+  font-size: 115%;
+}
+
+/*Fin de formulaire d'abonnement mail à la newsletter*/
+
+
 /*Main of service*/
 .nos-services h1 {
   text-align: center;
@@ -300,7 +395,6 @@ label[for="input"] {
 .nos-services .img {
   height: 10vw;
   width: 10vw;
-  border-radius: 2em;
 }
 
 .nos-services section {
@@ -319,7 +413,7 @@ label[for="input"] {
 }
 
 .nos-services section div {
-  width: 20%;
+  width: 25%;
   margin: 2%;
   padding: 2%;
   box-shadow: 0px 50px 100px 0px rgba(5, 1, 64, 0.1),
@@ -327,7 +421,8 @@ label[for="input"] {
 }
 .nos-services section p {
   margin-top: 3vw;
-  color: rgba(77, 77, 110, 0.8);
+  color: rgba(7, 7, 95, 0.919);
+  font-size: 110%;
 }
 
 .nos-services section div:hover {
@@ -337,7 +432,7 @@ label[for="input"] {
   border-color: #1e2f56;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   transition: 0.2s;
-  width: 20%;
+  width: 25%;
 }
 
 .service {
@@ -360,7 +455,7 @@ label[for="input"] {
   text-align: center;
   margin: 2%;
   padding: 2%;
-  font-size: 23px;
+  font-size: 22px;
 }
 
 .service :hover {
@@ -377,8 +472,15 @@ label[for="input"] {
 .service h2 {
   margin-top: 1vw;
   margin-bottom: 1vw;
+  color: rgba(189, 91, 0, 0.926);
+}
+
+.service img {
+  height: 8vw;
+  padding: 1vw;
 }
 /*End Main of service*/
+
 
 /*main of A propos*/
 .values {
@@ -464,3 +566,4 @@ h1 {
 .team p {
   margin-top: 1em;
 }
+
