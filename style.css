@@ -345,7 +345,7 @@ label[for="input"] {
   transition: 0.2s;
 }
 .service > * {
-  flex: 1 1 500px;
+  flex: 1 1 200px;
 }
 
 .services {
@@ -355,13 +355,18 @@ label[for="input"] {
   text-align: center;
   margin: 2%;
   padding: 2%;
+  font-size: 25px;
 }
 
 .service :hover {
-  border-radius: 2vw;
-  transition: 0.2s;
-  border: 6px;
-  font-size: 25px;
+  font-size: 30px;
+  border-radius: 6%;
+  background-color: antiquewhite;
 }
+.service h2 {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
 /*End Main of service*/
 /* Fin du formulaire de contact */
