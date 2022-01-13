@@ -240,19 +240,20 @@ label[for="input"] {
 /*Main of service*/
 .nos-services h1 {
   text-align: center;
-  font-size: 300%;
+  font-size: 400%;
   color: #007691;
-  text-shadow: 5px 5px 1px #bfbfbf;
+  text-shadow: 5px 5px 1px #2222222a;
 }
 
 .nos-services .firstPart {
   background-color: #561e1e1c;
-  box-shadow: 5px 5px 20px #454545;
+  box-shadow: 5px 5px 10px #454545;
 }
 
 .nos-services .secondPart {
-  background-color: #dadada10;
+  background-color: #f3b40725;
   padding-bottom: 3em;
+  box-shadow: 1px 1px 3px #454545;
 }
 
 .secondTitle h1 {
@@ -261,9 +262,9 @@ label[for="input"] {
 }
 
 .secondTitle h2 {
-  font-size: 250%;
+  font-size: 400%;
   color: #009130;
-  text-shadow: 3px 3px 1px #bfbfbf;
+  text-shadow: 3px 3px 1px #2222222a;
 }
 
 .phases {
@@ -283,7 +284,7 @@ label[for="input"] {
   color: rgb(0, 91, 189);
   text-decoration: underline;
   padding: 0.1em;
-  text-shadow: 5px 5px 1px #bfbfbf;
+  text-shadow: 5px 5px 1px #2222222a;
 }
 
 .nos-services {
@@ -316,7 +317,6 @@ label[for="input"] {
   width: 20%;
   margin: 2%;
   padding: 2%;
-  transition: 0.2s;
   box-shadow: 0px 50px 100px 0px rgba(5, 1, 64, 0.1),
     0px -5px 0px 0px rgba(95, 84, 253, 0.004);
 }
@@ -349,20 +349,26 @@ label[for="input"] {
 }
 
 .services {
-  box-shadow: 12px 12px 2px 1px rgb(208, 212, 211);
+  box-shadow: 12px 12px 2px 1px rgba(123, 123, 123, 0.659);
   border-top-color: transparent;
   background-color: whitesmoke;
   text-align: center;
   margin: 2%;
   padding: 2%;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .service :hover {
-  font-size: 30px;
   border-radius: 6%;
   background-color: antiquewhite;
+  box-shadow: 10px 10px 5px rgba(123, 123, 123, 0.659);
 }
+
+.service .services :hover {
+  box-shadow: none;
+  transition: none;
+}
+
 .service h2 {
   margin-top: 1vw;
   margin-bottom: 1vw;
