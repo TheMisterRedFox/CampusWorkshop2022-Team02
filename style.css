@@ -158,12 +158,10 @@ footer li {
 
 /* Formulaire de contact */
 
-.contact {
+.contact,
+.newsletter {
   margin: 2.5%;
   padding-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
   box-shadow: 8px 8px 10px #414141;
   background-color: rgb(248, 248, 248);
@@ -236,6 +234,50 @@ label[for="input"] {
   font-weight: bold;
   font-size: 150%;
 }
+/* Fin du formulaire de contact */
+
+/*Formulaire d'abonnement mail à la newsletter*/
+
+.newsletter img,
+.contact img {
+  height: 25%;
+  width: 25%;
+  padding: 1vw;
+}
+
+.newsletter h1 {
+  color: #009130;
+  text-shadow: 4px 4px 2px #d1d1d17e;
+  font-size: 300%;
+}
+
+.newsletter h2 {
+  color: #454545c4;
+  font-weight: normal;
+  margin-bottom: 1.5vw;
+}
+.newsletter .form input[type="email"] {
+  width: 25%;
+  line-height: 30px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.newsletter .form input[type="submit"] {
+  max-width: 15%;
+  line-height: 20px;
+  background-color: #06f555;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.newsletter .form input[type="submit"]:hover {
+  line-height: 35px;
+  box-shadow: 5px 5px 1px #45454564;
+  font-size: 115%;
+}
+
+/*Fin de formulaire d'abonnement mail à la newsletter*/
 
 /*Main of service*/
 .nos-services h1 {
@@ -297,7 +339,6 @@ label[for="input"] {
 .nos-services .img {
   height: 10vw;
   width: 10vw;
-  border-radius: 2em;
 }
 
 .nos-services section {
@@ -357,7 +398,7 @@ label[for="input"] {
   text-align: center;
   margin: 2%;
   padding: 2%;
-  font-size: 23px;
+  font-size: 22px;
 }
 
 .service :hover {
@@ -374,7 +415,12 @@ label[for="input"] {
 .service h2 {
   margin-top: 1vw;
   margin-bottom: 1vw;
+  color: rgba(189, 91, 0, 0.926);
+}
+
+.service img {
+  height: 8vw;
+  padding: 1vw;
 }
 
 /*End Main of service*/
-/* Fin du formulaire de contact */
