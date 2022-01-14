@@ -142,7 +142,6 @@ footer li {
 }
 /*End of Footer*/
 
-
 /* Index page */
 
 .main_index {
@@ -286,7 +285,6 @@ label[for="input"] {
 }
 /* Fin du formulaire de contact */
 
-
 /*Formulaire d'abonnement mail à la newsletter*/
 
 .newsletter img,
@@ -333,7 +331,6 @@ label[for="input"] {
 }
 
 /*Fin de formulaire d'abonnement mail à la newsletter*/
-
 
 /*Main of service*/
 .nos-services h1 {
@@ -481,50 +478,64 @@ label[for="input"] {
 }
 /*End Main of service*/
 
-
 /*main of A propos*/
-.values {
+.propos {
+  background-color: #e3e8eb;
+}
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-shadow: 5px 5px 2px #2222222a;
+}
+.valuation {
+  color: #4f6d5c;
+  display: flex;
+  margin: 3em;
+}
+.Distinction {
   margin: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.values img {
+.Distinction img {
   width: 10em;
   height: 10em;
 }
 
-.values {
+.Distinction {
   display: flex;
   justify-content: space-around;
 }
-.values p {
+.Distinction p {
   font-size: 25px;
 }
 
-.values h1 {
+.Distinction h1 {
   text-align: center;
   font-size: 320%;
-  color: #4634ee;
+  color: #95eeba;
   text-shadow: 3px 3px 1px #2222222a;
 }
-.valuation {
+.distinctions {
   margin: 2em;
+  margin-left: 5em;
   padding: 2em;
   text-align: center;
-  width: 25em;
-  height: 18em;
-  border: solid;
+  width: 22em;
+  height: 19em;
   border-radius: 3em;
+  box-shadow: 5px 5px 10px #0f0909a2;
 }
 
 .history p {
   column-count: 2;
   column-width: 20em;
-  margin: 4em;
-  margin-top: 2em;
   font-size: 25px;
+  margin: 1em;
 }
 .history h1 {
   margin-top: 3em;
@@ -535,21 +546,19 @@ h1 {
   text-align: center;
   text-align: center;
   font-size: 320%;
-  color: #2b18d8;
+  color: #4978fa;
   text-shadow: 5px 5px 2px #2222222a;
 }
 
 .history {
-  margin: 3em;
+  background-color: #fffff9ec;
 }
 
 .team {
-  background-color: #e3e8eb;
   margin: 1em;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
 }
 
 .team > * {
@@ -559,11 +568,8 @@ h1 {
   font-size: 25px;
 }
 .image {
-  margin: 1em;
+  box-shadow: 5px 5px 2px #2222222a;
   padding: 5em;
+  width: 300px;
+  height: 30vw;
 }
-
-.team p {
-  margin-top: 1em;
-}
-
