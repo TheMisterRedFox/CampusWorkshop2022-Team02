@@ -3,8 +3,25 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "RobortoCondensed";
+  src: url(./font/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: "RobortoCondensed";
+  src: url(./font/RobotoCondensed-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "RobortoCondensed";
+  src: url(./font/RobotoCondensed-LightItalic.ttf);
+  font-style: italic;
+}
+
 body {
-  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-family: "RobortoCondensed";
   height: auto;
 }
 
@@ -424,7 +441,7 @@ label[for="input"] {
 .nos-services section p {
   margin-top: 3vw;
   color: rgba(7, 7, 95, 0.919);
-  font-size: 110%;
+  font-size: 130%;
 }
 
 .nos-services section div:hover {
@@ -445,6 +462,7 @@ label[for="input"] {
   margin: 4em;
   margin-bottom: 0em;
   transition: 0.2s;
+  font-size: 135%;
 }
 .service > * {
   flex: 1 1 200px;
