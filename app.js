@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
     .staggerFrom(
       titreSpans,
       1.5,
-      { top: +800, opacity: 0, ease: "power2.out" },
+      { top: +200, opacity: 0, ease: "power2.out" },
       0.05,
       "-=1"
     )
