@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
       titreSpans,
       1.5,
       { top: +800, opacity: 0, ease: "power2.out" },
-      0.08,
+      0.05,
       "-=1"
     )
     .staggerFrom(btns, 2, { opacity: 0, ease: "power2.out" }, 0.3);
