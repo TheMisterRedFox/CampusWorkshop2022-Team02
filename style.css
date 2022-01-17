@@ -660,7 +660,48 @@ h1 {
   padding: 5em;
   width: 300px;
   height: 30vw;
+}
+/*End main of A propos*/
 
-.team p {
-  margin-top: 1em;
+/*Main of Blog*/
+.title {
+  margin-bottom: 3em;
+  font-size: 30px;
+}
+
+.blog {
+  margin: 0.5em;
+  padding: 2em;
+}
+
+.blogs {
+  display: flex;
+  border: transparent;
+  box-shadow: 5px 5px 10px #0f0909a2;
+  margin: 0.3em;
+  padding: 3em;
+}
+
+.blogs p {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.blogs h2 {
+  display: flex;
+  margin: 0.6em;
+  font-size: 30px;
+}
+
+.blogs h4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 2em;
+}
+
+.blog a:link,
+.blog a:visited {
+  color: black;
+  text-decoration: none;
 }
