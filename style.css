@@ -34,7 +34,7 @@ li {
 
 nav {
   box-shadow: 0.2px 1px 10px grey;
-  width: 100vw;
+  width: 100%;
 }
 
 nav ul {
@@ -612,7 +612,9 @@ label[for="input"] {
 .proposFirstPart {
   background-color: #000e31c7;
   padding-bottom: 10em;
-  box-shadow: 2px 2px 10px #45454590;
+  box-shadow: 1px 10px 7px #0000005f;
+  background-image: url(./logo/logobackground.png);
+  background-position: center;
 }
 
 .value {
@@ -622,6 +624,7 @@ label[for="input"] {
   margin: 2em 3em 2em 3em;
   position: relative;
   font-size: 30px;
+  cursor: default;
 }
 
 .values h1 {
@@ -700,47 +703,93 @@ label[for="input"] {
   text-shadow: 5px 5px 1px #22222221;
 }
 
+.history {
+  padding: 1em;
+  background-color: #c2bc006e;
+  box-shadow: 1px 10px 7px #0000005f;
+}
 .history p {
   column-count: 2;
   column-width: 20em;
   font-size: 25px;
-  margin: 1em;
+  padding: 1em;
 }
 .history h1 {
-  margin-top: 3em;
-  margin-bottom: 1em;
+  padding: 0.25em;
+  font-size: 800%;
+  color: #ca8d3e;
+  text-shadow: 7px 7px 0.5px #0000006e;
+  transition: 0.2s;
 }
 
-h1 {
-  text-align: center;
-  text-align: center;
-  font-size: 320%;
-  color: #4978fa;
-  text-shadow: 5px 5px 2px #2222222a;
+.history:hover > h1 {
+  text-shadow: 14px 14px 0px #0000006e;
 }
 
-.history {
-  background-color: #fffff9ec;
+.teamDC {
+  padding: 1.5em;
+  background: linear-gradient(#0080aa54, #001a2254);
+  box-shadow: 1px 5px 7px #0000005f;
 }
 
-.team {
+.teamDC h1 {
+  text-align: end;
+  font-size: 600%;
+  padding: 0.3em;
+  color: #002bd6;
+  text-shadow: -7px 7px 0.5px #7676766e;
+  transition: 0.2s;
+}
+
+.teamDC:hover > h1 {
+  text-shadow: -14px 14px 0px #7676766e;
+}
+
+.teamPictures {
   margin: 1em;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
 
-.team > * {
-  flex: 1 1 200px;
+.teamPictures img {
+  width: 100%;
+  height: auto;
 }
-.team p {
+
+.teamPictures p {
   font-size: 25px;
 }
 .image {
-  box-shadow: 5px 5px 2px #2222222a;
-  padding: 5em;
-  width: 300px;
-  height: 30vw;
+  box-shadow: 5px 5px 5px #2222222a;
+  padding: 0.2em;
+  width: 30%;
+  height: min-content;
+  margin: 1em;
+  transition: 0.4s;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.image p {
+  opacity: 0;
+  border-radius: 75px 75px 44px 0px / 75px 75px 0px 0px;
+  background-color: rgba(196, 196, 196, 0.152);
+  margin-bottom: 0;
+  transition: 0.4s;
+}
+
+.image:hover {
+  width: 33%;
+  box-shadow: 5px 5px 20px #222222e9;
+  border: 0.2em solid #00000080;
+}
+
+.image:hover > p {
+  opacity: 1;
 }
 
 /*End main of A propos*/
@@ -750,6 +799,12 @@ h1 {
   margin-bottom: 3em;
   font-size: 30px;
   text-align: center;
+}
+
+.title h1 {
+  font-size: 350%;
+  color: #002bd6;
+  text-shadow: 5px 5px 2px #4545454d;
 }
 
 .title h2 {
