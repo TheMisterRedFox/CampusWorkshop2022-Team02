@@ -1,0 +1,6 @@
+.text {
+  position: fixed;
+  border: solid;
+  display: flex;
+  flex-direction: row;
+}
