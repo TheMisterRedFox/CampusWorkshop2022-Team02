@@ -1,11 +1,15 @@
 # CampusWorkshop2022-Team02
 
-## DIGITAL CONSULTANT
+## DIGITAL CONSULTANT 
+![Le logo de DIGITAL CONSULTANT](./Pictures/logo/logoMD.png "Logo de Digital Consultant")
 
-Ce projet Workshop 2022 consiste à mettre sur pied **un site web vitrine** pour valoriser les services et le travail de l'entreprise DIGITAL CONSULTANT.Etant donné que ceci se fait en groupe,notre groupe est constitué de 2 personnes à savoir :
+Le projet **DIGITAL CONSULTANT** est un projet du Workshop de **CAMPUS ACADEMY** de janvier 2022.
+Celui-ci consiste à mettre sur pied un **site web vitrine** qui a pour but de valoriser les services ainsi que le travail de l'entreprise **DIGITAL CONSULTANT**.
+Étant donné que ce travail se fait en groupe, le notre est alors constitué de 2 personnes.
+À savoir :
 
-- CORNUAULT Romain
-- EMAGNI Regine
+- **CORNUAULT Romain**
+- **EMAGNI Regine**
 
 Pour la marche de ce projet nous avons crée 2 branches su lesquelles chacun de nous effectuions son bout de code et le pousse sur le branche principale lorsque tout est bien fait.
 
@@ -16,28 +20,28 @@ Pour la marche de ce projet nous avons crée 2 branches su lesquelles chacun de 
 
 ## Realisation du projet
 
-1. **Langages**
+### 1. **Langages**
 
 Pour la réalisation de ce projet nous avons utiliser plusieurs langages de programmation à savoir :
 
-- **HTML** ( HyperText Markup Langage )
-- **CSS** ( Cascading Style Sheets )
-- **JS** ( JavaScript )
-- **JSON** ( JavaScript Object Notation )
+- **`HTML`** ( HyperText Markup Langage )
+- **`CSS`** ( Cascading Style Sheets )
+- **`JS`** ( JavaScript )
+- **`JSON`** ( JavaScript Object Notation )
 
-2. **Repartition du site**
+### 2. **Repartition du site**
 
 Pour une bonne compréhension et une navigation fluide dans le site , nous l'avons reparti en **8 pages** toutes stylisée à l'aide d'un fichier **css** , **js** , **json** .  
 Liste des pages du site:
 
-- Index.html = _Page d'Acceuil_
-- Apropos.html = _Page A propos_
-- Service.html = _Page Nos services_
-- Galerie.html = _Page Galerie_
-- blog.html = _Page Blog_
-- contacts.html = _Page Nous contacter_
-- newsletters.html = _Page S'bonner à la newsletter_
-- legal.html = _Page Mention légale_
+- `Index.html` = _"Page d'acceuil"_
+- `Apropos.html` = _Page "À propos"_
+- `Service.html` = _Page "Nos services"_
+- `Galerie.html` = _Page "Galerie"_
+- `blog.html` = _Page "Blog"_
+- `contacts.html` = _Page "Nous contacter"_
+- `newsletters.html` = _Page "S'abonner à la newsletter"_
+- `legal.html` = _Page "Mentions légale"_
 
 3. **Outils**
 
