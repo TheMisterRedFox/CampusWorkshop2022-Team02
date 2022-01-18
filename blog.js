@@ -1,7 +1,8 @@
 let blogPicture = document.querySelectorAll("blogPicture");
 let blog = document.querySelectorAll("blogs");
 
-const requestUrl = "./blog.json";
+const requestUrl =
+  "https://themisterredfox.github.io/CampusWorkshop2022-Team02/blog.json";
 const request = new XMLHttpRequest();
 
 request.open("GET", requestUrl);
@@ -41,3 +42,5 @@ function addContent(jsonObj) {
     blog.appendChild(myArticle);
   }
 }
+
+console.log("hello");
