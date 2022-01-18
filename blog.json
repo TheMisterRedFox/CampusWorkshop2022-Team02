@@ -1,8 +1,5 @@
 {
-  "type": "Blog",
-  "homeSite": "Digital Consultant",
-  "active": true,
-  "articles": [
+
     {
       "headName": "L'ouverture officielle du site de Digital Consultant !",
       "description": "C'est avec joie et fierté que vous nous annonçons que notre site est enfin disponible ! Il s'agit un site vitrine créé par deux étudiants de l'école \"Campus Academy\" de Nantes.",
@@ -76,5 +73,5 @@
       "date": "JJ/MM/AAAA",
       "picture": "./nom-de-votre-photo.png"
     }
-  ]
-}
+  }
+
