@@ -5,18 +5,18 @@
 
 @font-face {
   font-family: "RobortoCondensed";
-  src: url(./font/RobotoCondensed-Regular.ttf);
+  src: url(../font/RobotoCondensed-Regular.ttf);
 }
 
 @font-face {
   font-family: "RobortoCondensed";
-  src: url(./font/RobotoCondensed-Bold.ttf);
+  src: url(../font/RobotoCondensed-Bold.ttf);
   font-weight: bold;
 }
 
 @font-face {
   font-family: "RobortoCondensed";
-  src: url(./font/RobotoCondensed-LightItalic.ttf);
+  src: url(../font/RobotoCondensed-LightItalic.ttf);
   font-style: italic;
 }
 
@@ -43,6 +43,7 @@ nav ul {
   justify-content: center;
   color: #454545;
   background-color: rgb(255, 255, 255);
+  flex-wrap: wrap;
 }
 
 nav li {
@@ -99,6 +100,7 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 footer a:link,
@@ -477,9 +479,9 @@ label[for="input"] {
 }
 
 .secondTitle h1 {
-  padding-top: 2em;
+  padding-top: 1em;
   color: #009130;
-  font-size: 330%;
+  font-size: 600%;
   text-shadow: 3px 3px 1px #2222222a;
 }
 
@@ -487,6 +489,7 @@ label[for="input"] {
   font-size: 320%;
   color: #009130;
   text-shadow: 3px 3px 1px #2222222a;
+  padding-bottom: 0;
 }
 
 .phases {
@@ -812,7 +815,7 @@ label[for="input"] {
 .title h1 {
   font-size: 350%;
   color: #002bd6;
-  text-shadow: 5px 5 px 2px #4545454d;
+  text-shadow: 5px 5px 2px #4545454d;
 }
 
 .title h2 {
@@ -911,6 +914,7 @@ label[for="input"] {
 .galerieItem img {
   width: 100%;
   height: 100%;
+  transition: 0.8s;
 }
 
 .galerieItem p {
@@ -924,6 +928,10 @@ label[for="input"] {
 
 .galerieItem:hover p {
   opacity: 1;
+}
+
+.galerieItem:hover img {
+  filter: grayscale(1);
 }
 
 .galerieMain {
