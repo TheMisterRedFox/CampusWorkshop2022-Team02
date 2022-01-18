@@ -1,7 +1,7 @@
 # CampusWorkshop2022-Team02
 
-## DIGITAL CONSULTANT 
-![Le logo de DIGITAL CONSULTANT](./Pictures/logo/logoMD.png "Logo de Digital Consultant")
+## DIGITAL CONSULTANT ![Le logo de DIGITAL CONSULTANT](./Pictures/logo/logoMD.png "Logo de Digital Consultant")
+
 
 Le projet **DIGITAL CONSULTANT** est un projet du Workshop de **CAMPUS ACADEMY** de janvier 2022.
 Celui-ci consiste à mettre sur pied un **site web vitrine** qui a pour but de valoriser les services ainsi que le travail de l'entreprise **DIGITAL CONSULTANT**.
