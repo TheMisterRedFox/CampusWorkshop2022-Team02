@@ -63,4 +63,4 @@ Les droits du site reviennent uniquement à **l'équipe qui l'a réalisé** ains
 
 ## Conclusion
 
-En conclusion,nous pouvons dire que ce site est personalisable car comme vous pourez le constater, il y a plusieurs **placeholder** que vous pourez remplacer par vos propres idées!!
+Deux semaines de travail ont étés nécessaires à la réalisation de ce projet. Il en va de soit que le projet fut réellement intéréssant et qu'il nous a énormément apporté. Nous sommes désormais prêt à coder d'autres sites webs ! 🤓
