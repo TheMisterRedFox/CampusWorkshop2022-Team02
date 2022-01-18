@@ -292,6 +292,14 @@ footer li {
   text-align: center;
 }
 
+.carousel-item {
+  transition: 0.4s;
+}
+
+.carousel-item:hover {
+  filter: grayscale(1);
+}
+
 .carousel-item img {
   border-radius: 1em;
   width: 95%;
@@ -804,7 +812,7 @@ label[for="input"] {
 .title h1 {
   font-size: 350%;
   color: #002bd6;
-  text-shadow: 5px 5px 2px #4545454d;
+  text-shadow: 5px 5 px 2px #4545454d;
 }
 
 .title h2 {
