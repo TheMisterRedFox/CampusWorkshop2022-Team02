@@ -18,7 +18,7 @@ const ap_information3 = document.querySelector("#ap_information3");
 const ap_information3_description = document.querySelector(
   "#ap_information3_description"
 );
-const section3_title = document.querySelector("#section3_title");
+const ap_section3_title = document.querySelector("#ap_section3_title");
 const ap_section3_picture1 = document.querySelector("#ap_section3_picture1");
 const ap_section3_picture1_description = document.querySelector(
   "#ap_section3_picture1_description"
@@ -47,8 +47,8 @@ const ap_section3_picture6_description = document.querySelector(
 //Fin de page à propos//
 
 const changeText = (jsonObj) => {
-  historyTitle.innerText = jsonObj["ap_historyTitle"];
-  history.innerText = jsonObj["ap_history"];
+  ap_historyTitle.innerText = jsonObj["ap_historyTitle"];
+  ap_history.innerText = jsonObj["ap_history"];
   ap_ourValues.innerText = jsonObj["ap_ourValues"];
   ap_value1.innerText = jsonObj["ap_value1"];
   ap_value2.innerText = jsonObj["ap_value2"];
@@ -63,7 +63,7 @@ const changeText = (jsonObj) => {
   ap_information3.innerText = jsonObj["ap_information3"];
   ap_information3_description.innerText =
     jsonObj["ap_information3_description"];
-  section3_title.innerText = jsonObj["section3_title"];
+  ap_section3_title.innerText = jsonObj["ap_section3_title"];
   ap_section3_picture1.innerText = jsonObj["ap_section3_picture1"];
   ap_section3_picture1_description.innerText =
     jsonObj["ap_section3_picture1_description"];
