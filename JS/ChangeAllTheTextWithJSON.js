@@ -8,14 +8,15 @@ const changeText = (jsonObj) => {
   history.innerText = jsonObj["history"];
 };
 
-const requestURL =
+var requestURL =
   "https://raw.githubusercontent.com/TheMisterRedFox/CampusWorkshop2022-Team02/Romain/JSON/allTheText.json";
-const request = new XMLHttpRequest();
+var request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
 request.send();
 
 request.onload = function () {
   var AllTheJSONScript = request.response;
+  console.log(AllTheJSONScript);
   changeText(AllTheJSONScript);
 };
