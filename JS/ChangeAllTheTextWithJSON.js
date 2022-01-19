@@ -1,6 +1,7 @@
 
 //page d'accueil
 const nav1 = document.querySelector(".nav1");
+console.log(nav1.innerHTML);
 const nav2 = document.querySelector(".nav2");
 const nav3 = document.querySelector(".nav3");
 const nav4 = document.querySelector(".nav4");
@@ -16,19 +17,19 @@ const legal = document.querySelector(".legal");
 
 const changeText = (jsonObj) => {
 
-  nav1.innerText = jsonObj["nav1"];
-  nav2.innerText = jsonObj[ "nav2"];
-  nav3.innerText = jsonObj[ "nav3"];
-  nav4.innerText = jsonObj[ "nav4"];
-  nav5.innerText = jsonObj[ "nav5"];
-  sentence.innerText = jsonObj[ "sentence"];
-  container1.innerText = jsonObj[ "container1"];
-  container2.innerText = jsonObj[ "container2"];
-  coll.innerText = jsonObj[ "coll"];
-  allow.innerText = jsonObj[ "allow"];
-  also.innerText = jsonObj[ "also"];
-  news.innerText = jsonObj[ "news"];
-  legal .innerText = jsonObj[ "legal"];
+  nav1.innerHTML = jsonObj["nav1"];
+  nav2.innerHTML = jsonObj[ "nav2"];
+  nav3.innerHTML = jsonObj[ "nav3"];
+  nav4.innerHTML = jsonObj[ "nav4"];
+  nav5.innerHTML = jsonObj[ "nav5"];
+  sentence.innerHTML = jsonObj[ "sentence"];
+  container1.innerHTML = jsonObj[ "container1"];
+  container2.innerHTML = jsonObj[ "container2"];
+  coll.innerHTML = jsonObj[ "coll"];
+  allow.innerHTML = jsonObj[ "allow"];
+  also.innerHTML = jsonObj[ "also"];
+  news.innerHTML = jsonObj[ "news"];
+  legal .innerHTML = jsonObj[ "legal"];
 };
 
 var requestURL =
