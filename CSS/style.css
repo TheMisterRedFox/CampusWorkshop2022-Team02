@@ -632,7 +632,6 @@ label[for="input"] {
   color: #313131;
   text-shadow: 2px 2px 2px #2222222a;
   display: flex;
-  margin: 2em 3em 2em 3em;
   position: relative;
   font-size: 30px;
   cursor: default;
@@ -667,6 +666,8 @@ label[for="input"] {
   display: flex;
   flex-direction: row;
   height: 200px;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .Distinction {
