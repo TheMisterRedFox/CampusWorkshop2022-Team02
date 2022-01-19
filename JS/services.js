@@ -1,3 +1,4 @@
+//Pages services//
 const ser_head_title_part1 = document.querySelector("#ser_head_title_part1");
 const ser_head_title_number = document.querySelector("#ser_head_title_number");
 const ser_head_title_part2 = document.querySelector("#ser_head_title_part2");

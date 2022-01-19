@@ -44,8 +44,6 @@ const ap_section3_picture6_description = document.querySelector(
   "#ap_section3_picture6_description"
 );
 
-//Fin de page à propos//
-
 const changeText = (jsonObj) => {
   ap_historyTitle.innerText = jsonObj["ap_historyTitle"];
   ap_history.innerText = jsonObj["ap_history"];
