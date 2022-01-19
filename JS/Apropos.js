@@ -1,6 +1,10 @@
 const historyTitle = document.querySelector("#historyTitle");
 const history = document.querySelector("#history");
 
+const changeText = (jsonObj) => {
+  historyTitle.innerText = jsonObj["historyTitle"];
+  history.innerText = jsonObj["history"];
+};
 const requestURL =
   "https://raw.githubusercontent.com/TheMisterRedFox/CampusWorkshop2022-Team02/Romain/JSON/Apropos.json";
 const request = new XMLHttpRequest();
@@ -11,9 +15,4 @@ request.send();
 request.onload = function () {
   var Apropos = request.response;
   changeText(Apropos);
-};
-
-const changeText = (jsonObj) => {
-  historyTitle.innerText = jsonObj["historyTitle"];
-  history.innerText = jsonObj["history"];
 };
