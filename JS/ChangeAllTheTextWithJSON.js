@@ -1,6 +1,6 @@
 //Page à propos//
-const ap_historyTitle = document.querySelector("#historyTitle");
-const ap_history = document.querySelector("#history");
+const ap_historyTitle = document.querySelector("#ap_historyTitle");
+const ap_history = document.querySelector("#ap_history");
 const ap_ourValues = document.querySelector("#ap_ourValues");
 const ap_value1 = document.querySelector("#ap_value1");
 const ap_value2 = document.querySelector("#ap_value2");
@@ -47,8 +47,8 @@ const ap_section3_picture6_description = document.querySelector(
 //Fin de page à propos//
 
 const changeText = (jsonObj) => {
-  historyTitle.innerText = jsonObj["historyTitle"];
-  history.innerText = jsonObj["history"];
+  historyTitle.innerText = jsonObj["ap_historyTitle"];
+  history.innerText = jsonObj["ap_history"];
   ap_ourValues.innerText = jsonObj["ap_ourValues"];
   ap_value1.innerText = jsonObj["ap_value1"];
   ap_value2.innerText = jsonObj["ap_value2"];
