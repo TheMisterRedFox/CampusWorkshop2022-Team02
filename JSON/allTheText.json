@@ -1,8 +1,6 @@
-
 /*page acceuil*/
-
 {
-    "nav1" : "Accueil",
+    "nav1" : "Accueillir",
     "nav1_en" : "Homepage",
     "nav2" : "À Propos",
     "nav2_en" : "About us",
