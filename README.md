@@ -1,13 +1,17 @@
 # CampusWorkshop2022-Team02
 
 ## DIGITAL CONSULTANT
+![Le logo de DIGITAL CONSULTANT](./Pictures/logo/logoMD.png "Logo de Digital Consultant")
 
-Ce projet Workshop 2022 consiste à mettre sur pied **un site web vitrine** pour valoriser les services et le travail de l'entreprise DIGITAL CONSULTANT.Etant donné que ceci se fait en groupe,notre groupe est constitué de 2 personnes à savoir :
+Le projet **DIGITAL CONSULTANT** est un projet du Workshop de **CAMPUS ACADEMY** de janvier 2022.
+Celui-ci consiste à mettre sur pied un **site web vitrine** qui a pour but de valoriser les services ainsi que le travail de l'entreprise **DIGITAL CONSULTANT**.
+Étant donné que ce travail se fait en groupe, le notre est alors constitué de 2 personnes.
+À savoir :
 
-- CORNUAULT Romain
-- EMAGNI Regine
+- **CORNUAULT Romain**
+- **EMAGNI Regine**
 
-Pour la marche de ce projet nous avons crée 2 branches su lesquelles chacun de nous effectuions son bout de code et le pousse sur le branche principale lorsque tout est bien fait.
+Afin que le projet fonctionne sans accros, nous avons créés deux branches sur lesquelles chacuns de nous faisaient le travail que nous nous étions fixés. Puis, quand tout était bon, notre travail était `merge` vers la branche principale (main).
 
 ## Plan de réalisation du projet
 
@@ -16,37 +20,47 @@ Pour la marche de ce projet nous avons crée 2 branches su lesquelles chacun de 
 
 ## Realisation du projet
 
-1. **Langages**
+### - **Langages utilisés**
 
-Pour la réalisation de ce projet nous avons utiliser plusieurs langages de programmation à savoir :
+Pour la réalisation de ce projet, nous avons utilisé plusieurs langages de programmation. À savoir :
 
-- **HTML** ( HyperText Markup Langage )
-- **CSS** ( Cascading Style Sheets )
-- **JS** ( JavaScript )
-- **JSON** ( JavaScript Object Notation )
+- **`🟧 HTML`** (HyperText Markup Langage)
+- **`🟦 CSS`** (Cascading Style Sheets)
+- **`🟨 JS`** (JavaScript)
+- **`🟨 JSON`** (JavaScript Object Notation)
 
-2. **Repartition du site**
+### - **Repartition du site**
 
 Pour une bonne compréhension et une navigation fluide dans le site , nous l'avons reparti en **8 pages** toutes stylisée à l'aide d'un fichier **css** , **js** , **json** .  
 Liste des pages du site:
 
-- Index.html = _Page d'Acceuil_
-- Apropos.html = _Page A propos_
-- Service.html = _Page Nos services_
-- Galerie.html = _Page Galerie_
-- blog.html = _Page Blog_
-- contacts.html = _Page Nous contacter_
-- newsletters.html = _Page S'bonner à la newsletter_
-- legal.html = _Page Mention légale_
+- `Index.html` = _"Page d'acceuil"_
+- `Apropos.html` = _Page "À propos"_
+- `Service.html` = _Page "Nos services"_
+- `Galerie.html` = _Page "Galerie"_
+- `blog.html` = _Page "Blog"_
+- `contacts.html` = _Page "Nous contacter"_
+- `newsletters.html` = _Page "S'abonner à la newsletter"_
+- `legal.html` = _Page "Mentions légale"_
 
-3. **Outils**
+### - **Outils**
 
-Comme outils, nous avons utiliser :
+Comme outils, nous avons utilisé :
 
-- **VS Code** (Visual Studio Code): Pour pouvoir écrire le code
-- **GOOGLE**: Pour s'instruire et faire des recherches sur certains aspects incompréhensibles
-- **Git** : Pour pouvoir mettre en ligne le résultat final tout en synchronisant nos travaux
+- **`🖥️ VS Code (Visual Studio Code)`** : Éditeur de code très connu des développeurs. Simple d'utilisation et avec une prise en main facile, c'est celui qui nous semblait le plus logique d'utiliser pour un projet de site web.
+- **`🐱 Git`** : Pour pouvoir mettre en ligne le résultat final tout en synchronisant nos travaux
+- **`🌐 INTERNET`** : Le meilleur ami de tout développeur. Il est évident qu'utiliser Internet pour nos recherches était une nécessité. Lorsque le projet a été réalisé, notre groupe était en première année.
+
+## Le site est-il modulable ?
+
+Évidemment. Vu qu'il s'agit d'un site réalisé pour un client, nous n'avons pas rempli le site dans son entiereté. C'est à dire que toutes les "`boîtes`" du site qui contiennent les photos, les textes et autres sont bel et bien faites. Cependant, toutes les informations à l'intérieur sont modulables, et même doivent être modifiés avant de devenir un site commercial car, pour le moment, seul des images de synthèses et des placeholders font le contenu du site.
+
+## Mentions légales
+
+Bien que le site soit un projet étudiant réalisé pour une entreprise, des restrictions s'appliquent.
+Les droits du site reviennent uniquement à **l'équipe qui l'a réalisé** ainsi que l'entreprise **Digital Consultant**.
+>⛔ Vous n'avez donc pas le droit d'utiliser le site à des fins personnelles, ou bien à des fins commerciales. ⛔
 
 ## Conclusion
 
-En conclusion,nous pouvons dire que ce site est personalisable car comme vous pourez le constater, il y a plusieurs **placeholder** que vous pourez remplacer par vos propres idées!!
+Deux semaines de travail ont étés nécessaires à la réalisation de ce projet. Il en va de soit que le projet fut réellement intéréssant et qu'il nous a énormément apporté. Nous sommes désormais prêt à coder d'autres sites webs ! 🤓
