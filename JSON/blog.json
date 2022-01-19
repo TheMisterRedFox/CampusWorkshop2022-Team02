@@ -16,7 +16,7 @@
       "picture": "./nom-de-votre-photo.png"
     },
     {
-     "headName": "Nom de l'article",
+    "headName": "Nom de l'article",
       "description": "Description de l'article",
       "showMoreInformations": true,
       "hidden":false,
