@@ -666,6 +666,7 @@ label[for="input"] {
 .lignValues {
   display: flex;
   flex-direction: row;
+  height: 200px;
 }
 
 .Distinction {
