@@ -96,7 +96,7 @@ const changeText = (jsonObj) => {
 };
 
 var requestURL =
-  "https://raw.githubusercontent.com/TheMisterRedFox/CampusWorkshop2022-Team02/JSON/services.json";
+  "https://raw.githubusercontent.com/TheMisterRedFox/CampusWorkshop2022-Team02/main/JSON/services.json";
 var request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
