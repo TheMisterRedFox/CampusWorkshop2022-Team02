@@ -1,6 +1,65 @@
 {
-    // Page à propos //
-    "historyTitle": "NOTRE HISTOIRE",
-    "history": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa odit aut nostrum. Optio aliquam ipsam a possimus temporibus ab quidem! Excepturi, corporis deserunt suscipit ratione ipsum unde nihil nam assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vel iusto quia inventore praesentium voluptatibus est reiciendis eligendi non vitae voluptatum animi. Dolorem modi recusandae possimus debitis dignissimos minus vitae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam tempora autem unde cumque voluptatibus voluptates hic voluptas iusto iste, maxime labore fuga non doloremque odit illum ratione eum! Aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia praesentium, hic corrupti exercitationem et adipisci cumque quasi accusantium dolore sequi debitis qui natus maiores vitae quia ducimus? Aliquid, quia?  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet autem dolores, animi similique, necessitatibus ratione iure expedita vitae architecto ab alias qui labore corrupti nulla maxime eligendi dignissimos velit. Ullam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit. Eos, officia earum accusantium facilis corrupti assumenda quis voluptatibus incidunt, ratione necessitatibus expedita ea, voluptatem nulla ducimus beatae architecto esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, possimus laboriosam eligendi ab odit assumenda minus repellat cupiditate excepturi dolorum tenetur aut, voluptas maiores. Praesentium, reiciendis fuga! Sequi, ipsum facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quos minus repellat laboriosam sequi ratione voluptatum ipsa nesciunt, quasi assumenda quod iusto laudantium quam totam natus sint, facilis, rem dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quos? Reprehenderit earum dolorum, mollitia ipsum, in id eum dignissimos, labore beatae aspernatur officiis inventore maxime voluptate optio amet explicabo doloribus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis modi vel, optio, quasi voluptatem mollitia nulla architecto eaque magnam deserunt voluptatum. Voluptatibus odit nostrum cumque quaerat officiis, aut possimus velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi est facilis perferendis, obcaecati ad, impedit inventore eaque in quaerat delectus maiores. Eveniet veniam laboriosam esse delectus distinctio odit, ad at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi sit numquam commodi eligendi vitae, voluptatem impedit nostrum non! Veritatis dignissimos corporis tempore, illo ea consequatur ratione accusamus consectetur maiores? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ad omnis impedit quidem voluptatum perspiciatis nisi cum alias iure accusamus, sequi eligendi illo minus natus eius quasi quas, adipisci eum."
-    
+    "ap_ourValues": "Nos valeurs",
+    "ap_ourValues_en": "OUR VALUES",
+
+    "ap_value1": "Partage",
+    "ap_value1_en": "Sharing",
+
+    "ap_value2": "Équité",
+    "ap_value2_en": "Equality",
+
+    "ap_value3": "Excellence",
+    "ap_value3_en": "Excellency",
+
+    "ap_value4": "Agilité",
+    "ap_value4_en": "Agility",
+
+    "ap_information1":"4 PAYS",
+    "ap_information1_en": "4 COUNTRIES",
+    "ap_information1_description": "pour être plus proche de vous",
+    "ap_information1_description_en": "to be closer to you",
+
+    "ap_information2":"+ DE 10 ANNÉES",
+    "ap_information2_en": "MORE THAN 10 YEARS ",
+    "ap_information2_description": "d'experience dans nos domaines",
+    "ap_information2_description_en": "experience in our fields",
+
+    "ap_information3":"+ DE 10 SERVICES",
+    "ap_information3_en": "MORE THAN 10 SERVICES",
+    "ap_information3_description": "tous différents, afin de vous satisfaire",
+    "ap_information3_description_en": "all different, in order to satisfy you",
+
+    "ap_historyTitle": "NOTRE HISTOIRE",
+    "ap_historyTitle_en": "OUR HISTORY",
+
+    "ap_history": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa odit aut nostrum. Optio aliquam ipsam a possimus temporibus ab quidem! Excepturi, corporis deserunt suscipit ratione ipsum unde nihil nam assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vel iusto quia inventore praesentium voluptatibus est reiciendis eligendi non vitae voluptatum animi. Dolorem modi recusandae possimus debitis dignissimos minus vitae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam tempora autem unde cumque voluptatibus voluptates hic voluptas iusto iste, maxime labore fuga non doloremque odit illum ratione eum! Aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia praesentium, hic corrupti exercitationem et adipisci cumque quasi accusantium dolore sequi debitis qui natus maiores vitae quia ducimus? Aliquid, quia?  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet autem dolores, animi similique, necessitatibus ratione iure expedita vitae architecto ab alias qui labore corrupti nulla maxime eligendi dignissimos velit. Ullam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit. Eos, officia earum accusantium facilis corrupti assumenda quis voluptatibus incidunt, ratione necessitatibus expedita ea, voluptatem nulla ducimus beatae architecto esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, possimus laboriosam eligendi ab odit assumenda minus repellat cupiditate excepturi dolorum tenetur aut, voluptas maiores. Praesentium, reiciendis fuga! Sequi, ipsum facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quos minus repellat laboriosam sequi ratione voluptatum ipsa nesciunt, quasi assumenda quod iusto laudantium quam totam natus sint, facilis, rem dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quos? Reprehenderit earum dolorum, mollitia ipsum, in id eum dignissimos, labore beatae aspernatur officiis inventore maxime voluptate optio amet explicabo doloribus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis modi vel, optio, quasi voluptatem mollitia nulla architecto eaque magnam deserunt voluptatum. Voluptatibus odit nostrum cumque quaerat officiis, aut possimus velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi est facilis perferendis, obcaecati ad, impedit inventore eaque in quaerat delectus maiores. Eveniet veniam laboriosam esse delectus distinctio odit, ad at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi sit numquam commodi eligendi vitae, voluptatem impedit nostrum non! Veritatis dignissimos corporis tempore, illo ea consequatur ratione accusamus consectetur maiores? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ad omnis impedit quidem voluptatum perspiciatis nisi cum alias iure accusamus, sequi eligendi illo minus natus eius quasi quas, adipisci eum.",
+    "ap_history_en": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa odit aut nostrum. Optio aliquam ipsam a possimus temporibus ab quidem! Excepturi, corporis deserunt suscipit ratione ipsum unde nihil nam assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vel iusto quia inventore praesentium voluptatibus est reiciendis eligendi non vitae voluptatum animi. Dolorem modi recusandae possimus debitis dignissimos minus vitae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi nam tempora autem unde cumque voluptatibus voluptates hic voluptas iusto iste, maxime labore fuga non doloremque odit illum ratione eum! Aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure mollitia praesentium, hic corrupti exercitationem et adipisci cumque quasi accusantium dolore sequi debitis qui natus maiores vitae quia ducimus? Aliquid, quia?  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet autem dolores, animi similique, necessitatibus ratione iure expedita vitae architecto ab alias qui labore corrupti nulla maxime eligendi dignissimos velit. Ullam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit. Eos, officia earum accusantium facilis corrupti assumenda quis voluptatibus incidunt, ratione necessitatibus expedita ea, voluptatem nulla ducimus beatae architecto esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, possimus laboriosam eligendi ab odit assumenda minus repellat cupiditate excepturi dolorum tenetur aut, voluptas maiores. Praesentium, reiciendis fuga! Sequi, ipsum facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quos minus repellat laboriosam sequi ratione voluptatum ipsa nesciunt, quasi assumenda quod iusto laudantium quam totam natus sint, facilis, rem dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quos? Reprehenderit earum dolorum, mollitia ipsum, in id eum dignissimos, labore beatae aspernatur officiis inventore maxime voluptate optio amet explicabo doloribus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis modi vel, optio, quasi voluptatem mollitia nulla architecto eaque magnam deserunt voluptatum. Voluptatibus odit nostrum cumque quaerat officiis, aut possimus velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi est facilis perferendis, obcaecati ad, impedit inventore eaque in quaerat delectus maiores. Eveniet veniam laboriosam esse delectus distinctio odit, ad at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi sit numquam commodi eligendi vitae, voluptatem impedit nostrum non! Veritatis dignissimos corporis tempore, illo ea consequatur ratione accusamus consectetur maiores? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ad omnis impedit quidem voluptatum perspiciatis nisi cum alias iure accusamus, sequi eligendi illo minus natus eius quasi quas, adipisci eum.",
+
+    "ap_section3_title": "L'ÉQUIPE DE DIGITAL CONSULTANT",
+    "ap_section3_title_en": "DIGITAL CONSULTANT'S TEAM",
+
+    "ap_section3_picture1": "../Pictures/teamPictures/1.png",
+    "ap_section3_picture1_description": "Petit texte...",
+    "ap_section3_picture1_description_en": "A little text...",
+
+    "ap_section3_picture2": "../Pictures/teamPictures/2.png",
+    "ap_section3_picture2_description": "Petit texte...",
+    "ap_section3_picture2_description_en": "A little text...",
+
+    "ap_section3_picture3": "../Pictures/teamPictures/3.png",
+    "ap_section3_picture3_description": "Petit texte...",
+    "ap_section3_picture3_description_en": "A little text...",
+
+    "ap_section3_picture4": "../Pictures/teamPictures/4.png",
+    "ap_section3_picture4_description": "Petit texte...",
+    "ap_section3_picture4_description_en": "A little text...",
+
+    "ap_section3_picture5": "../Pictures/teamPictures/5.png",
+    "ap_section3_picture5_description": "Petit texte...",
+    "ap_section3_picture5_description_en": "Hello World !",
+
+    "ap_section3_picture6": "../Pictures/teamPictures/6.png",
+    "ap_section3_picture6_description": "Petit texte...",
+    "ap_section3_picture6_description_en": "A little text..."
+
 }

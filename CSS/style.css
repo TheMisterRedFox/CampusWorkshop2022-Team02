@@ -624,7 +624,7 @@ label[for="input"] {
   background-color: #000e31c7;
   padding-bottom: 10em;
   box-shadow: 1px 10px 7px #0000005f;
-  background-image: url(./logo/logobackground.png);
+  background-image: url(../Pictures/logo/logobackground.png);
   background-position: center;
 }
 
