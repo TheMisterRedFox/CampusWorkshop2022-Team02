@@ -6,8 +6,7 @@ const changeText = (jsonObj) => {
   history.innerText = jsonObj["history"];
 };
 
-const requestURL =
-"JSON\allTheText.json"
+const requestURL ="JSON\allTheText.json"
 const request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
