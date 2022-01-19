@@ -5,6 +5,7 @@ const changeText = (jsonObj) => {
   historyTitle.innerText = jsonObj["historyTitle"];
   history.innerText = jsonObj["history"];
 };
+
 const requestURL =
   "https://raw.githubusercontent.com/TheMisterRedFox/CampusWorkshop2022-Team02/Romain/JSON/Apropos.json";
 const request = new XMLHttpRequest();
@@ -13,6 +14,6 @@ request.responseType = "json";
 request.send();
 
 request.onload = function () {
-  var Apropos = request.response;
-  changeText(Apropos);
+  var AllTheJSONScript = request.response;
+  changeText(AllTheJSONScript);
 };
