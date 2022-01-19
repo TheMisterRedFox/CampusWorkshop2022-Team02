@@ -19,8 +19,17 @@ window.addEventListener("load", () => {
       { left: 200, opacity: 0, ease: "power2.out" },
       0.3,
       "-=1"
+<<<<<<< Updated upstream:JS/app.js
       )
       .staggerFrom(btns, 2, { opacity: 0, ease: "power2.out" }, 0.3);
       
       TL.play();
     });
+=======
+    )
+    .staggerFrom(btns, 2, { opacity: 0, ease: "power2.out" }, 0.3);
+
+  TL.play();
+});
+
+>>>>>>> Stashed changes:app.js
