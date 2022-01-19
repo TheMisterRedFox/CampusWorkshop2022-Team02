@@ -1,0 +1,77 @@
+{
+    "ser_head_title_part1": "NOS OFFRES EN",
+    "ser_head_title_part1_en": "OUR OFFERS IN",
+    "ser_head_title_number": "3", //Ici vous pouvez changer le chiffre écrit en rouge sur la page nos services. Si vous ne souhaitez ne rien mettre pour ce chiffre, laissez la case vide, c'est à dire : ""//
+    "ser_head_title_number_en": "3",
+    "ser_head_title_part2": "ÉTAPES !",
+    "ser_head_title_part2_en": "STEPS !",
+
+    
+    "ser_phase1": "PHASE D'AUDIT",
+    "ser_phase1_en": "AUDIT",
+    "ser_phase1_description": "Ici nous récoltons un maximum d'informations sur votre entreprise, nous prenons le temps avec vous d'identifier vos difficultés et vos facilités ainsi que les réalités de gestion courante auxquelles vous êtes confrontées. Ceci afin de vous orienter vers la solution dont vous avez réellement besoin.",
+    "ser_phase1_description_en": "Here we collect as much information as possible about your company, we take the time with you to identify your difficulties and your opportunities as well as the day-to-day management realities you face. This is to guide you towards the solution you really need.",
+    
+
+    "ser_phase2": "PHASE DE CONSEIL",
+    "ser_phase2_en": "ADVICE",
+    "ser_phase2_description": "À la suite de la phase d'audit seront identifiées les priorités en matière de conseil et de conception. À cette étape un premier bilan est effectué dans lequel nous présentons les résultats de l'audit et émettons des conseils pour la phase de conception.",
+    "ser_phase2_description_en": "Following the audit phase, priorities for advice and design will be identified. At this stage a first assessment is carried out in which we present the results of the audit and issue advice for the design phase.",
+    
+    "ser_phase3": "PHASE DE CONCEPTION",
+    "ser_phase3_en": "CONCEPTION",
+    "ser_phase3_description": "La phase de conception peut soit être assurée par nos équipes soit être déléguée à un de nos nombreux partenaires au Canada en Espagne et en France et prochainement aux États-Unis. Nous proposons des solutions adaptées à tous types de clientèle et tous budgets confondus. Seulement nous sommes spécialistes dans les méthodes agiles et privilégions une approche sur mesure dans notre conception en interne. C'est pourquoi nous n'hésiterons pas à vous réorienter vers des solutions clefs en section ou vous dire de manière impartiale si les opportunités que vous avez identifiées valent réellement la peine pour votre entreprise.",
+    "ser_phase3_description_en": "The design phase can either be carried out by our teams or be delegated to one of our many partners in Canada, Spain and France and soon in the United States. We offer solutions adapted to all types of customers and all budgets. Only we are specialists in agile methods and favor a tailor-made approach in our in-house design. That's why we won't hesitate to redirect you to key solutions in section or tell you in an impartial way if the opportunities you have identified are really worth it for your business.",
+    
+
+    "ser_secondsection_head_title_part1": "UNE VARIÉTÉ DE SERVICES",
+    "ser_secondsection_head_title_part1_en": "A VARIETY OF SERVICES",
+    "ser_secondsection_head_title_part2": "À",
+    "ser_secondsection_head_title_part2_en": "AT",
+    "ser_secondsection_head_title_bluetext": "VOTRE",
+    "ser_secondsection_head_title_bluetext_en": "YOUR",
+    "ser_secondsection_head_title_part3": "DISPOSITION",
+    "ser_secondsection_head_title_part3_en": "DISPOSAL",
+
+    "ser_service1": "ERP",
+    "ser_service1_en": "ERP",
+    "ser_service1_description": "Nos solutions ERP s’adaptent aux besoins et aux spécificités du marché de la prestation de services et répondent aux enjeux des professionnels.",
+    "ser_service1_description_en": "Our ERP solutions adapt to the needs and specificities of the service delivery market and meet the challenges of professionals.",
+
+    "ser_service2": "SITE WEB",
+    "ser_service2_en": "WEBSITE",
+    "ser_service2_description": "Assurez votre présence en ligne en publiant le contenu essentiel de votre activité sur un site internet entièrement personnalisé.",
+    "ser_service2_description_en": "Ensure your online presence by publishing the essential content of your business on a fully personalized website.",
+
+    "ser_service3": "E-COMMERCE",
+    "ser_service3_en": "E-COMMERCE",
+    "ser_service3_description": "Optez pour une solution de site e-commerce vous permet de vendre 24 heures sur 24 et 7 jours sur 7.",
+    "ser_service3_description_en": "Opting for an e-commerce site solution allows you to sell 24H/24H and 7/7",
+
+    "ser_service4": "CREATION DE MARQUE",
+    "ser_service4_en": "BRAND CREATION",
+    "ser_service4_description": "Nous créons l'identité visuelle originale de votre marque à travers la création de son logo, de sa charte graphique et la conception de votre site internet.",
+    "ser_service4_description_en": "We create the original visual identity of your brand through the creation of its logo, its graphic charter and the design of your website.",
+
+    "ser_service5": "STRATEGIE DE COMMUNICATION",
+    "ser_service5_en": "COMMUNICATION STRATEGY",
+    "ser_service5_description": "Optez pour un accompagnement sur mesure, mené par des professionnels de la communication.",
+    "ser_service5_description_en": "Opt for tailor-made support, led by communication professionals.",
+
+    "ser_service6": "AUDIT",
+    "ser_service6_en": "AUDIT",
+    "ser_service6_description": "Nous cherchons ensemble quels sont vos axes d’amélioration possibles, nous analysons les méthodes et outils mis en place par votre entreprise.",
+    "ser_service6_description_en": "We look together for your possible areas of improvement, we analyze the methods and tools put in place by your company.",
+
+    "ser_service7": "CHAT BOT",
+    "ser_service7_en": "CHAT BOT",
+    "ser_service7_description": "Mettez l'intelligence artificielle au service de votre relation client. Automatisez les tâches à faible valeur ajoutée et créez des services interactifs.",
+    "ser_service7_description_en": "Put artificial intelligence at the service of your customer relationship. Automate low value-added tasks and create interactive services.",
+
+    "ser_service8": "APPLICATION MOBILE",
+    "ser_service8_en": "MOBILE APP",
+    "ser_service8_description": "Rendre votre entreprise mobile n’est plus un sujet de débat. Aujourd’hui vos clients et employés s’attendent à interagir avec vous du bout des doigts.",
+    "ser_service8_description_en": "Making your business mobile is no longer a matter of debate. Today your customers and employees expect to interact with you at their fingertips."
+
+
+}
