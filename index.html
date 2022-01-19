@@ -28,19 +28,19 @@
                         </div>
                     </li>
                     <li>
-                        <a href="index.html" class="text"><strong class="actualPage">Accueil</strong> </a>
+                        <a href="index.html" class="text"><strong class="actualPage"  class = "nav1">Accueil</strong> </a>
                     </li>
                     <li>
-                        <a href="./HTML/Apropos.html" class="text"> À Propos </a>
+                        <a href="./HTML/Apropos.html" class="text" class = "nav2"> À Propos </a>
                     </li>
                     <li>
-                        <a href="./HTML/Service.html" class="text"> Nos Services </a>
+                        <a href="./HTML/Service.html" class="text" class = "nav3"> Nos Services </a>
                     </li>
                     <li>
-                        <a href="./HTML/Galerie.html" class="text"> Galerie </a>
+                        <a href="./HTML/Galerie.html" class="text" class = "nav4"> Galerie </a>
                     </li>
                     <li>
-                        <a href="./HTML/blog.html" class="text"> Blog </a>
+                        <a href="./HTML/blog.html" class="text" class = "nav5"> Blog </a>
                     </li>
                 </ul>
             </nav>
@@ -52,9 +52,9 @@
             <img src="./Pictures/logo/logo.png" alt="Logo de DC" class="logoDC">
             <h1><span>DIGITAL </span><span>CONSULTANT</span></h1></div>
             <h2><span>Audit</span><span> / </span><span>Training</span><span> / </span><span>Advice</span></h2>
-            <p><span>Bienvenue sur le site de DIGITAL CONSULTANT©.</span></p>
+            <p id="sentence"><span>Bienvenue sur le site de DIGITAL CONSULTANT©.</span></p>
                 <div class="container-btns">
-                    <a href="Service.html"><button class="btn-first b1">Nos Services</button></a>
+                    <a href="Service.html" id="container1"><button class="btn-first b1">Nos Services</button></a>
                     <a href="contacts.html"><button class="btn-first b2">Contact</button></a>
 
                 </div>
@@ -109,7 +109,7 @@
                     
                     </div>
                 </div>
-                <p><span>Les collaborateurs qui nous ont fait confiance.</span></p>
+                <p id="coll"><span>Les collaborateurs qui nous ont fait confiance.</span></p>
                 </div>
         </main>
 
@@ -120,8 +120,8 @@
                     <li class="logo">
                         <a href="index.html"><img src="./Pictures/logo/logo.png" alt="Logo de DC"></a>
                     </li>
-                    <li>Tout droits réservés ©</li>
-                    <li id="create">Developpé avec amour par Régine et Romain</li>
+                    <li class="allow">Tout droits réservés ©</li>
+                    <li class="create">Developpé avec amour par Régine et Romain</li>
                 </ul>
             </div>
             <div class="footerNavigation">
@@ -130,35 +130,35 @@
                         <h2> Navigation </h2>
                     </li>
                     <li>
-                        <a href="index.html"> <span class="actualPageFooter">Accueil</span> </a>
+                        <a href="index.html"> <span class="actualPageFooter" class="nav1"  >Accueil</span> </a>
                     </li>
                     <li>
-                        <a href="./HTML/Apropos.html"> À Propos </a>
+                        <a href="./HTML/Apropos.html" class="nav2"> À Propos </a>
                     </li>
                     <li>
-                        <a href="./HTML/Service.html"> Nos Services </a>
+                        <a href="./HTML/Service.html" class="nav3">  Nos Services </a>
                     </li>
                     <li>
-                        <a href="./HTML/Galerie.html"> Galerie </a>
+                        <a href="./HTML/Galerie.html" class="nav4"> Galerie </a>
                     </li>
                     <li>
-                        <a href="./HTML/blog.html"> Blog </a>
+                        <a href="./HTML/blog.html" class="nav5"></a> Blog </a>
                     </li>
                 </ul>
                 </div>
                 <div class="otherFooterNavigation">
                     <ul>
                         <li>
-                            <h2> Mais encore... </h2>
+                            <h2 class="also"> Mais encore... </h2>
                         </li>
                         <li>
                             <a href="./HTML/contacts.html"> Nous contacter</a>
                         </li>
                         <li>
-                            <a href="./HTML/newsletter.html">S'abonner à la newsletter</a>
+                            <a href="./HTML/newsletter.html" class="news">S'abonner à la newsletter</a>
                         </li>
                         <li>
-                            <a href="./HTML/legal.html"> Mentions légales </a>
+                            <a href="./HTML/legal.html" class="legal"> Mentions légales </a>
                         </li>
                     </ul>
                     </div>
@@ -171,7 +171,7 @@
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
         <script src="./JS/app.js"></script>
-        <script src="../JS/ChangeAllTheTextWithJSON.js"></script>
-        <script src="../JSON/allTheText.json"></script>
+        <script src="./JS/ChangeAllTheTextWithJSON.js"></script>
+        <script src="./JSON/allTheText.json"></script>
     </body>
 </html>
