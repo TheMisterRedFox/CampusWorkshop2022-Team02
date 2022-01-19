@@ -1,19 +1,19 @@
 
 //page d'accueil
-const nav1 = document.querySelector(".nav1");
+let nav1 = document.querySelector(".nav1");
 console.log(nav1.innerHTML);
-const nav2 = document.querySelector(".nav2");
-const nav3 = document.querySelector(".nav3");
-const nav4 = document.querySelector(".nav4");
-const nav5 = document.querySelector(".nav5");
-const sentence =  document.querySelector("#sentence");
-const container1 = document.querySelector("#container1");
-const container2 =  document.querySelector("#container2");
-const coll = document.querySelector("#coll");
-const allow = document.querySelector(".allow");
-const also = document.querySelector(".also");
-const news = document.querySelector(".news");
-const legal = document.querySelector(".legal");
+let nav2 = document.querySelector(".nav2");
+let nav3 = document.querySelector(".nav3");
+let nav4 = document.querySelector(".nav4");
+let nav5 = document.querySelector(".nav5");
+let sentence =  document.querySelector("#sentence");
+let container1 = document.querySelector("#container1");
+let container2 =  document.querySelector("#container2");
+let coll = document.querySelector("#coll");
+let allow = document.querySelector(".allow");
+let also = document.querySelector(".also");
+let news = document.querySelector(".news");
+let legal = document.querySelector(".legal");
 
 const changeText = (jsonObj) => {
 
