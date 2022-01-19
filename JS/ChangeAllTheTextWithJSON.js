@@ -1,5 +1,7 @@
+//Page à propos//
 const historyTitle = document.querySelector("#historyTitle");
 const history = document.querySelector("#history");
+//Fin de page à propos//
 
 const changeText = (jsonObj) => {
   historyTitle.innerText = jsonObj["historyTitle"];
