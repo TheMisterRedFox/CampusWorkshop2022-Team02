@@ -632,7 +632,6 @@ label[for="input"] {
   color: #313131;
   text-shadow: 2px 2px 2px #2222222a;
   display: flex;
-  margin: 2em 3em 2em 3em;
   position: relative;
   font-size: 30px;
   cursor: default;
@@ -640,6 +639,7 @@ label[for="input"] {
 
 .values h1 {
   margin-top: 0.5em;
+  margin-bottom: 0.5em;
   font-size: 800%;
   color: #eede01;
   text-shadow: 2px 2px 5px #0000009f;
@@ -666,6 +666,9 @@ label[for="input"] {
 .lignValues {
   display: flex;
   flex-direction: row;
+  height: 200px;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .Distinction {
@@ -992,3 +995,51 @@ label[for="input"] {
 }
 
 /* Fin de la galerie */
+
+/* Mentions légales */
+
+.mentionsLegales {
+  padding: 3em;
+  background-color: rgba(250, 235, 215, 0.159);
+}
+
+.mentionsLegales h1 {
+  text-align: center;
+  font-size: 600%;
+  text-shadow: 5px 5px 1px #00000023;
+  color: rgba(7, 7, 95, 0.919);
+  margin-bottom: 0.5em;
+}
+
+.mentionsLegales h2 {
+  padding: 1em 0 0.2em;
+  font-size: 300%;
+  color: #222222;
+  text-shadow: 3px 3px 1px #00000023;
+}
+
+.mentionsLegales p {
+  color: #454545d4;
+  font-size: 120%;
+}
+
+.mentionsLegales a:link,
+a:visited {
+  color: rgba(5, 61, 202, 0.741);
+  text-decoration: none;
+}
+
+.mentionsLegales a:link:hover,
+.mentionsLegales a:visited:hover {
+  text-decoration: underline;
+}
+
+.Flaticon {
+  margin: 5px 0;
+  border: 2px solid #45454567;
+  width: max-content;
+  padding: 0.5em;
+  box-shadow: 1px 1px 5px #45454565;
+  background-color: #fceb002c;
+}
+/* Fin des mentions légales*/
