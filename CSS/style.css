@@ -635,6 +635,7 @@ label[for="input"] {
 
 .phases {
   background-color: #ffffff;
+  height: 40vw;
 }
 
 #three {
@@ -667,7 +668,6 @@ label[for="input"] {
   display: flex;
   justify-content: center;
   margin: auto 0;
-  height: 100vh;
   padding: 50px;
   text-align: center;
   font-size: 0.9vw;
@@ -746,6 +746,44 @@ label[for="input"] {
   height: 8vw;
   padding: 1vw;
 }
+
+@media screen and (max-width: 1100px) {
+  .nos-services .firstPart h1 {
+    font-size: 7vw;
+  }
+  .nos-services .secondPart h1,
+  .nos-services .secondPart h2 {
+    font-size: 7vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nos-services .phases h2,
+  .nos-services .phases p {
+    font-size: 2vw;
+  }
+  .nos-services .phases {
+    height: max-content;
+  }
+  .nos-services .secondPart .service > * {
+    flex: auto;
+  }
+  .nos-services .secondPart .service {
+    margin: 1em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nos-services .secondPart .service .services p {
+    font-size: 4vw;
+  }
+  .nos-services .phases p,
+  .nos-services .secondPart h2 {
+    font-size: 3.5vw;
+  }
+  .nos-services .phases {
+    width: 33vw;
+  }
+}
 /*End Main of service*/
 
 /*main of A propos*/
@@ -761,11 +799,53 @@ label[for="input"] {
   height: 100%;
 }
 
+@media screen and (max-width: 1250px) {
+  .lignValues {
+    height: 0px;
+  }
+  .Distinction {
+    flex-direction: column;
+  }
+  .distinctions {
+    width: 80%;
+    margin: 2em;
+  }
+  .Propos #ap_ourValues {
+    font-size: 15vw;
+  }
+  .value h2 {
+    font-size: 4vw;
+  }
+  .Propos .history h1 {
+    font-size: 10vw;
+    text-shadow: 0.7vw 0.7vw 0.5px #0000006e;
+  }
+
+  .Propos .history p {
+    font-size: 2.5vw;
+  }
+  .Propos .teamDC h1 {
+    font-size: 6vw;
+    text-shadow: -0.5vw 0.5vw 0.5px #7676766e;
+  }
+
+  .Propos .teamDC .teamPictures {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .Propos .distinctions {
+    height: 120%;
+  }
+}
+
 .proposFirstPart {
   background-color: #000e31c7;
   padding-bottom: 10em;
   box-shadow: 1px 10px 7px #0000005f;
   background-image: url(../Pictures/logo/logobackground.png);
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -807,8 +887,8 @@ label[for="input"] {
 .lignValues {
   display: flex;
   flex-direction: row;
-  height: 200px;
   width: 100%;
+  height: 6vw;
   justify-content: space-evenly;
 }
 
@@ -842,7 +922,6 @@ label[for="input"] {
   padding: 1.5em;
   text-align: center;
   min-width: 25%;
-  max-width: 35%;
   height: 19em;
   border-radius: 3em;
   box-shadow: 3px 3px 50px #00000074;
@@ -1031,10 +1110,65 @@ label[for="input"] {
 }
 
 .blog h2 {
-  margin: 0 0 1em 0;
+  margin-bottom: 1em;
   font-size: 250%;
 }
 
+@media screen and (max-width: 1250px) {
+  .blog .blogs {
+    height: min-content;
+    padding: 2vw;
+  }
+  .blog .blogs img {
+    height: 20vw;
+    margin-top: 50%;
+  }
+  .blog .blogs h2 {
+    font-size: 3.5vw;
+  }
+  .blog .blogs p {
+    font-size: 2vw;
+  }
+  .blog .blogs h4 {
+    font-size: 2vw;
+  }
+  .blog .title h1 {
+    font-size: 10vw;
+  }
+  .blog .title h2 {
+    font-size: 6vw;
+  }
+  .blog .title {
+    margin-bottom: 5px;
+  }
+  .blog {
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blog .blogs h2 {
+    font-size: 5vw;
+  }
+  .blog .blogs p {
+    font-size: 3.5vw;
+  }
+  .blog .blogs h4 {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .blog .blogs h2 {
+    font-size: 5.5vw;
+  }
+  .blog .blogs p {
+    font-size: 4vw;
+  }
+  .blog .blogs h4 {
+    font-size: 4vw;
+  }
+}
 /* Galerie */
 
 .galerie {
@@ -1084,13 +1218,35 @@ label[for="input"] {
 }
 
 .galerieMain h1 {
-  margin: 20px;
-  padding: 1vh;
+  padding: 20px;
   padding-bottom: 0;
   text-transform: uppercase;
   color: #090909d4;
   font-size: 600%;
   text-shadow: 5px 5px 5px#45454513;
+}
+
+@media screen and (max-width: 1200px) {
+  .galerieMain h1 {
+    font-size: 10vw;
+  }
+  .galerieMain #h2galerie {
+    font-size: 3.7vw;
+  }
+  .galerieMain .galerie {
+    width: 95%;
+    margin: 30px auto 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .galerieItem {
+    width: 95%;
+    height: 70%;
+  }
+  .galerieMain .galerie .align p {
+    font-size: 4vw;
+  }
 }
 
 .galerieMain h2 {
