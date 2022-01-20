@@ -9,9 +9,8 @@ const changeText = (jsonObj) => {
   
 };
 
-var requestURL =
-  "https://raw.githubusercontent.com/TheMisterRedFox/CampusWorkshop2022-Team02/regine/JSON/allTheText.json";
-var request = new XMLHttpRequest();
+let requestURL = "https://github.com/TheMisterRedFox/CampusWorkshop2022-Team02/tree/regine/JSON"
+let request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
 request.send();

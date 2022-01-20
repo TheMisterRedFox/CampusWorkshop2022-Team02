@@ -1,33 +1,6 @@
-{
-    "nav1" : "Accueillir",
-    "nav1_en" : "Homepage",
-    "nav2" : "À Propos",
-    "nav2_en" : "About us",
-    "nav3" : "Nos Services",
-    "nav3_en" : "Our services",
-    "nav4" : "Galerie",
-    "nav4_en" : "Gallery",
-    "nav5" : "Blog",
-    "nav5_en" : "Blog",
-    "sentence" : "Bienvenue sur le site de DIGITAL CONSULTANT©.",
-    "sentence_en" : "Welcome to the site of DIGITAL CONSULTANT©",
-    "container1" : "Nos Services",
-    "container1_en" : "Our services",
-    "container2" : "Contact",
-    "container2_en" : "Contact us",
-    "coll" : "Les collaborateurs qui nous ont fait confiance",
-    "coll_en" : "Employees who trusted us",
-    "allow" : "Tout droits réservés ©",
-    "allow_en" : "All rights reserved",
-    "also" : "Mais encore...",
-    "also_en":"But again",
-    "news": "S'abonner à la newsletter",
-    "news_en" : "subscribe to the newsletter ",
-    "legal" : "Mentions légales",
-    "legal_en" : "legal notice"
-}
+
 {
     "offer":"Nos offres en 5 étapes",
-    "offer_en":"our offers with 3 step ",
+    "offer_en":"our offers with 3 step "
 
 }
