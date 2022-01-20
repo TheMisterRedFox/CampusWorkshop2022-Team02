@@ -24,7 +24,7 @@
 }
 
 body {
-  font-family: "RobortoCondensed", Arial;
+  font-family: "RobortoCondensed";
   height: 100vh;
 }
 
@@ -46,11 +46,10 @@ nav ul {
   justify-content: center;
   color: #454545;
   background-color: rgb(255, 255, 255);
-  flex-wrap: wrap;
 }
 
 nav li {
-  margin: 0em 1em 0em 1em;
+  margin: 0em 1.5vh 0em 1.5vh;
 }
 
 nav .logo img {
@@ -90,6 +89,66 @@ a:active {
   color: #27f6fd;
 }
 
+@media screen and (max-width: 1250px) {
+  nav li {
+    margin: 0em 1.5vh 0em 1.5vh;
+  }
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 120%;
+  }
+  footer .footerLogo li {
+    margin: 0em;
+  }
+  footer #create {
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+  }
+
+  footer .socialMedia img {
+    height: 50px;
+  }
+
+  footer .footerNavigation li,
+  footer .otherFooterNavigation li {
+    margin: 0em 0em 0em 0em;
+  }
+
+  footer h2 {
+    margin: 0.2em 0em;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  nav li {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  nav ul {
+    flex-direction: column;
+    padding: 2vh;
+    font-size: 150%;
+    background-image: url(../Pictures/logo/littlelogobackground.png);
+    background-color: #3f3f3f13;
+    background-position: top;
+    transition: none;
+  }
+  nav .logo img {
+    display: none;
+  }
+  footer .socialMedia img {
+    height: 30px;
+  }
+  footer {
+    font-size: 100%;
+  }
+}
+
 /* End of Navigation Bar */
 
 /*Footer*/
@@ -103,9 +162,13 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  flex-wrap: wrap;
 }
 
+@media screen and (max-width: 275px) {
+  footer {
+    font-size: 80%;
+  }
+}
 footer a:link,
 footer a:visited {
   color: #454545;
@@ -130,7 +193,7 @@ footer li {
 }
 
 .footerLogo li {
-  margin: 0em 5em 0em 1em;
+  margin: 0em 1em 0em 1em;
   font-weight: normal;
 }
 
@@ -166,6 +229,7 @@ footer li {
 .navBar ul {
   margin-bottom: 0rem;
 }
+
 /*End of Footer*/
 
 /* Index page */
@@ -447,7 +511,7 @@ label[for="input"] {
 }
 
 .newsletter .form input[type="submit"] {
-  max-width: 15%;
+  max-width: max-content;
   line-height: 20px;
   background-color: #06f555;
   font-weight: bold;
@@ -458,6 +522,40 @@ label[for="input"] {
   line-height: 35px;
   box-shadow: 5px 5px 1px #45454564;
   font-size: 115%;
+}
+
+@media screen and (max-width: 1024px) {
+  .newsletter h1 {
+    font-size: 35px;
+  }
+  .newsletter .form input[type="submit"] {
+    width: 40%;
+  }
+  .newsletter .form input[type="email"] {
+    width: 40%;
+    line-height: 20px;
+    font-size: 130%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .newsletter h1 {
+      font-size: 20px;
+    }
+    .newsletter h2 {
+      font-size: 15px;
+    }
+    .newsletter p {
+      font-size: 12px;
+    }
+    .newsletter .form input[type="submit"] {
+      font-size: 8px;
+    }
+    .newsletter .form input[type="email"] {
+      width: 40%;
+      line-height: 10px;
+      font-size: 15px;
+    }
+  }
 }
 
 /*Fin de formulaire d'abonnement mail à la newsletter*/
@@ -1008,7 +1106,7 @@ label[for="input"] {
 
 .mentionsLegales h1 {
   text-align: center;
-  font-size: 600%;
+  font-size: 7vw;
   text-shadow: 5px 5px 1px #00000023;
   color: rgba(7, 7, 95, 0.919);
   margin-bottom: 0.5em;
@@ -1045,4 +1143,34 @@ a:visited {
   box-shadow: 1px 1px 5px #45454565;
   background-color: #fceb002c;
 }
+
+@media screen and (max-width: 700px) {
+  .Flaticon {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .Flaticon {
+    width: 75%;
+    height: 150%;
+  }
+  .mentionsLegales {
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .mentionsLegales p {
+    font-size: 2vw;
+  }
+  .mentionsLegales h2 {
+    font-size: 5vw;
+  }
+
+  .mentionsLegales li {
+    font-size: 3vw;
+  }
+}
+
 /* Fin des mentions légales*/
