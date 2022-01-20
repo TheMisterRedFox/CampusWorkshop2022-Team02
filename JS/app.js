@@ -6,12 +6,12 @@ const carousel = document.querySelector(".adBand");
 window.addEventListener("load", () => {
   const TL = gsap.timeline({ paused: true });
   TL.staggerFrom(img, 2, { top: -500, opacity: 0, ease: "power3.out" }, 0.3)
-  .staggerFrom(
-    titreSpans,
-    1.5,
-    { top: +160, opacity: 0, ease: "power2.out" },
-    0.05,
-    "-=1"
+    .staggerFrom(
+      titreSpans,
+      1.5,
+      { top: +160, opacity: 0, ease: "power2.out" },
+      0.05,
+      "-=1"
     )
     .staggerFrom(
       carousel,
@@ -19,17 +19,8 @@ window.addEventListener("load", () => {
       { left: 200, opacity: 0, ease: "power2.out" },
       0.3,
       "-=1"
-<<<<<<< Updated upstream:JS/app.js
-      )
-      .staggerFrom(btns, 2, { opacity: 0, ease: "power2.out" }, 0.3);
-      
-      TL.play();
-    });
-=======
     )
     .staggerFrom(btns, 2, { opacity: 0, ease: "power2.out" }, 0.3);
 
   TL.play();
 });
-
->>>>>>> Stashed changes:app.js
