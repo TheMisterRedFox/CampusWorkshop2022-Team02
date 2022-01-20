@@ -120,6 +120,16 @@ a:active {
   footer h2 {
     margin: 0.2em 0em;
   }
+
+  .main_index {
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-first.b2 {
+    margin-bottom: 70px;
+  }
 }
 
 @media screen and (max-width: 870px) {
@@ -136,6 +146,7 @@ a:active {
     background-image: url(../Pictures/logo/littlelogobackground.png);
     background-color: #3f3f3f13;
     background-position: top;
+    background-repeat: no-repeat;
     transition: none;
   }
   nav .logo img {
@@ -146,6 +157,35 @@ a:active {
   }
   footer {
     font-size: 100%;
+  }
+  .main_index .ok .adBand {
+    width: 90vw;
+  }
+
+  .main_index .logoDC {
+    width: 90vw;
+    height: auto;
+  }
+
+  .main_index .mainPage h1 {
+    font-size: 15vw;
+  }
+
+  .main_index .mainPage h2 {
+    font-size: 8vw;
+  }
+
+  .main_index .mainPage p {
+    font-size: 5vw;
+  }
+
+  .main_index .ok p {
+    font-size: 5vw;
+  }
+
+  .main_index .btn-first {
+    width: 60vw;
+    font-size: 4vw;
   }
 }
 
